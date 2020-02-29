@@ -16,4 +16,4 @@ pred = lr.predict(X_test)
 
 accuracy = accuracy_score(y_test, pred)
 print(f'Accuracy:',accuracy)
-print(f'Confusion Matrix:\n',confusion_matrix(y_test, pred))
+print(f'Confusion Matrix:\n',confusion_matrix(y_test, pred)) 
